@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(142, 184, 170);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+.bio{
+    font-size: 20px;
+    font-family: arial;
+    color: rgb(73, 72, 72);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.card{
+    width: 300px;
+    background-color: hwb(0 97% 0%);
+    padding: 50px;
+    border-radius: 1rem;
+    display: grid;
+    justify-items: center;
+    box-shadow: 0 5px 30px gray;
+    
+}
+
+.profileCard{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+    
+}
+
+
+.profession{
+    color: green;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.line{
+    width: 250px;
+    border: 1px solid rgb(236, 236, 236);
+}
+
+.SocialIcone{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    color: black;
+
+}
+.SocialIcone a:hover{
+    transform:scale(1.2);
+    color: black;
+}
+
+
